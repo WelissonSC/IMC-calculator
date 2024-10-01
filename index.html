@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1 class="title">Tabela IMC</h1>
+
+        <div class="info-container">
+            <div class="imc">
+                <h2 class="title">IMC</h2>
+                <p class="text">18,5 ou menos</p>
+                <p class="text">Entre 18,6 e 24,9</p>
+                <p class="text">Entre 25,0 e 29,9</p>
+                <p class="text">Entre 30,0 e 34,9</p>
+                <p class="text">Entre 35,0 e 39,9</p>
+                <p class="text">Acima de 40,0</p>
+            </div>
+
+            <div class="resul">
+                <h2 class="title">Resultado</h2>
+                <p class="text">Abaixo do normal</p> 
+                <p class="text">Normal</p>
+                <p class="text">Sobrepeso</p>
+                <p class="text">Obesidade grau I</p>
+                <p class="text">Obesidade grau II</p>
+                <p class="text">Obesidade grau III</p>
+            </div>
+
+        </div>
+
+        <h3 class="title title-h3">Calcule seu IMC</h3>
+
+        <form class="form">
+            <label class="inputs-style" >Peso:</label>
+            <input type="text" name="peso" class="inputs-style" placeholder="Digite seu peso em kg" id="peso">
+            <label class="inputs-style">Altura:</label>
+            <input type="text" name="altura" class="inputs-style" placeholder="Digite sua altura em cm" id="altura">
+            <button class="inputs-style btn-submit" type="submit">Calcular</button>
+        </form>
+        <div class="resultado-area">
+            
+        </div>
+
+    </section>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
